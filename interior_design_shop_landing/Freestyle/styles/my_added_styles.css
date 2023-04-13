@@ -1,5 +1,7 @@
 
-
+body {
+	background: #F6F4F1;
+}
 /* Wrapper styles */
 .Wrapper {
 	display: flex;
@@ -9,12 +11,49 @@
   /* Navbar_Wrapper styles */
   .Navbar_Wrapper {
 	height: 120px; /* Height of 120px */
+	margin: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+ 
+
+  .Navbar_Wrapper .Logo img {
+	flex-basis: 25%;
+	width: 156px;
+	height: 54px;
+	left: 155px; 
+	top: 33px;
+	margin-left: 135px; /* I.: Should be 160px sharp, the image has some extra blank space */
+  }
+
+  .Navbar_Wrapper .Navbar_Buttons {
 	display: flex;
-	align-items: center; /* Align items vertically centered */
-	justify-content: space-between; /* Space elements evenly */
-	padding: 0 20px;
-	background-color: #FFF;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	flex-basis: 50%;
+	margin: 0 400px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}
+
+  .Navbar_Buttons a {
+	text-decoration: none;
+	color: #696969;
+
+  }
+
+  .Navbar_Buttons .Home {
+	color: #424241;
+  }
+
+  .Navbar_Wrapper .Navbar_Rightside {
+	display: flex;
+	flex-basis: 25%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
   }
   
   /* General_Body_Wrapper styles */
@@ -119,3 +158,32 @@
 	font-size: 24px;
 	font-weight: bold;
   }
+
+  .Sale_Interactions {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  }
+
+ 
+
+  .Number_Controls {
+  	width: 50%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  }
+
+  .Number_Controls button {
+  	width: 75px;
+  	height: 75px;
+
+  	/* Text and Main/White */
+  	background: #cdc4c4;
+  	box-shadow: 0px 24px 50px rgba(0, 0, 0, 0.05);
+  	backdrop-filter: blur(2px);
+  }
+
+ 
