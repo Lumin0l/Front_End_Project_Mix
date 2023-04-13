@@ -1,0 +1,119 @@
+/* Wrapper styles */
+.Wrapper {
+	display: flex;
+	flex-direction: column; /* Main axis is column */
+  }
+  
+  /* Navbar_Wrapper styles */
+  .Navbar_Wrapper {
+	height: 120px; /* Height of 120px */
+	display: flex;
+	align-items: center; /* Align items vertically centered */
+	justify-content: space-between; /* Space elements evenly */
+	padding: 0 20px;
+	background-color: #FFF;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* General_Body_Wrapper styles */
+  .General_Body_Wrapper {
+	margin: 0 160px; /* Left and right margin of 160px */
+	flex: 1; /* Takes the remaining space */
+	display: flex;
+	flex-direction: row; /* Main axis is row */
+	justify-content: space-between; /* Space elements evenly */
+	align-items: center; /* Align items vertically centered */
+	padding: 30px 0;
+  }
+  
+  /* Info_Wrapper styles */
+  .Info_Wrapper {
+	display: flex;
+	flex-direction: column; /* Main axis is column */
+	justify-content: center; /* Align items vertically centered */
+	flex-basis: 648px; /* Width of 648px */
+  }
+  
+  .Claim_Title h1 {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0;
+	color: #212121;
+  }
+  
+  .Claim_Subtitle h2 {
+	font-size: 24px;
+	font-weight: 400;
+	margin: 20px 0;
+	color: #212121;
+  }
+  
+  /* Action_Buttons_Wrapper styles */
+  .Action_Buttons_Wrapper {
+	display: flex;
+	flex-direction: row; /* Main axis is row */
+  }
+  
+  .Shop_Now_Button {
+	display: inline-block;
+	margin-right: 20px;
+	padding: 12px 28px;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FFF;
+	background-color: #212121;
+	text-decoration: none;
+  }
+  
+  .Start_Video_Button {
+	display: inline-flex;
+	align-items: center; /* Align items vertically centered */
+	padding: 12px 28px;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #212121;
+	background-color: #FFF;
+	text-decoration: none;
+	border: 2px solid #212121;
+  }
+  
+  .Start_Video_Button img {
+	width: 24px;
+	margin-right: 10px;
+  }
+  
+  /* Statistics_Wrapper styles */
+  .Statistics_Wrapper {
+	display: flex;
+	flex-direction: row; /* Main axis is row */
+	justify-content: space-between; /* Space elements evenly */
+	margin-top: 60px;
+  }
+  
+  .Decoration_Products h1 {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0;
+	color: #212121;
+  }
+  
+  .Decoration_Products h2 {
+	font-size: 24px;
+	font-weight: 400;
+	margin: 10px 0;
+	color: #212121;
+  }
+  
+  .Award_Winnings h1 {
+	font-size: 48px;
+	font-weight: 800;
+	margin: 0;
+	color: #212121;
+  }
+  
+  .Award_Winnings h2 {
+	font-size: 24px;
+	font-weight: bold;
+  }
